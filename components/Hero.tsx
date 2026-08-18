@@ -6,7 +6,6 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
-      {/* Background Image & Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero-bg.jpg"
@@ -18,8 +17,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-black" />
       </div>
 
-      {/* Content */}
-      <div className="relative z-10 flex flex-col items-center text-center px-4 max-w-5xl mx-auto">
+      <div className="relative z-10 flex flex-col items-center text-center px-6 max-w-5xl mx-auto">
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -33,7 +31,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2, ease: "easeOut" }}
-          className="font-cormorant text-6xl md:text-8xl lg:text-9xl text-white font-light tracking-tight mb-8"
+          className="font-cormorant text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-white font-light tracking-tight mb-8"
         >
           N.A.S.A. <span className="text-amber-500/80 italic">Noir</span>
         </motion.h1>
@@ -62,7 +60,6 @@ export default function Hero() {
         </motion.div>
       </div>
 
-      {/* Scroll indicator */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

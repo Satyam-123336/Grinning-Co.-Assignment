@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# N.A.S.A. Noir — Luxury Fragrance Landing Page
+
+A creative single-page landing website built with **Next.js 14** for a frontend internship assignment.
+
+## Concept
+
+**NASA reimagined as a luxury perfume brand.**
+
+N.A.S.A. Noir takes the world's most recognisable scientific institution and flips it completely — transforming six decades of space exploration into an exclusive line of cosmos-inspired fragrances. The brand identity draws on dark luxury aesthetics, deep-space imagery, and premium typography to create a convincing, high-end product experience.
+
+## Live Demo
+
+> **[Live Site](#)** — *Link will be updated after Vercel deployment*
+
+## Tech Stack
+
+| Layer | Choice |
+|---|---|
+| Framework | Next.js 14 (App Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Animations | Framer Motion |
+| Icons | Lucide React |
+| Fonts | Cormorant Garamond + Space Grotesk (Google Fonts) |
+| Deployment | Vercel |
+
+## Features
+
+- Full-screen animated Hero section with cosmic background
+- Parallax Brand Story with animated orbital visual
+- Responsive product collection (horizontal on mobile, 3-column grid on desktop)
+- Feature highlights grid
+- Astronaut testimonials
+- Email newsletter signup
+- Fully responsive across mobile (375px), tablet (768px), and desktop (1280px+)
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+├── components/
+│   ├── Hero.tsx
+│   ├── BrandStory.tsx
+│   ├── ProductCollection.tsx
+│   ├── Features.tsx
+│   ├── Testimonials.tsx
+│   ├── Newsletter.tsx
+│   └── Footer.tsx
+└── public/
+    └── images/
+```

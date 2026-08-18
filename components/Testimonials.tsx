@@ -6,25 +6,24 @@ const testimonials = [
   {
     quote: "I smelled like a quasar all evening. Absolutely magnetic. 10/10.",
     author: "N. Armstrong",
-    title: "Test Pilot / Lunar Explorer"
+    title: "Test Pilot / Lunar Explorer",
   },
   {
     quote: "Finally, a fragrance that captures the profound emptiness of the void, but makes it sexy.",
     author: "S. Ride",
-    title: "Astrophysicist"
+    title: "Astrophysicist",
   },
   {
     quote: "Better than tang. Better than freeze-dried ice cream. The only thing I pack for orbit now.",
     author: "B. Aldrin",
-    title: "Lunar Module Pilot"
-  }
+    title: "Lunar Module Pilot",
+  },
 ];
 
 export default function Testimonials() {
   return (
-    <section className="w-full py-32 bg-[#050505]">
-      <div className="max-w-7xl mx-auto px-4 md:px-8">
-        
+    <section className="w-full py-20 md:py-32 bg-[#050505]">
+      <div className="max-w-7xl mx-auto px-6 md:px-8">
         <div className="text-center mb-16">
           <h2 className="font-cormorant text-4xl text-white mb-4">
             Transmission <span className="italic text-amber-500">Received</span>
@@ -50,7 +49,7 @@ export default function Testimonials() {
                 ))}
               </div>
               <p className="font-cormorant text-xl text-slate-300 italic mb-8 leading-relaxed">
-                "{t.quote}"
+                &ldquo;{t.quote}&rdquo;
               </p>
               <div>
                 <p className="font-spaceGrotesk text-white text-sm uppercase tracking-widest mb-1">
@@ -63,7 +62,6 @@ export default function Testimonials() {
             </motion.div>
           ))}
         </div>
-        
       </div>
     </section>
   );
