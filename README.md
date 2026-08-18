@@ -10,7 +10,7 @@ N.A.S.A. Noir takes the world's most recognisable scientific institution and fli
 
 ## Live Demo
 
-> **[Live Site](#)** — *Link will be updated after Vercel deployment*
+> **[Live Site](https://nasa-noir-h5p06d7ar-satyam-samantas-projects.vercel.app)** — Deployed on Vercel
 
 ## Tech Stack
 
