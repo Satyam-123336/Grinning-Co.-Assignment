@@ -1,4 +1,4 @@
-# N.A.S.A. Noir — Luxury Fragrance Landing Page
+# N.A.S.A. Noir - Luxury Fragrance Landing Page
 
 A creative single-page landing website built with **Next.js 14** for a frontend internship assignment.
 
