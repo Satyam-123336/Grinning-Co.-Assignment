@@ -6,11 +6,11 @@ A creative single-page landing website built with **Next.js 14** for a frontend 
 
 **NASA reimagined as a luxury perfume brand.**
 
-N.A.S.A. Noir takes the world's most recognisable scientific institution and flips it completely — transforming six decades of space exploration into an exclusive line of cosmos-inspired fragrances. The brand identity draws on dark luxury aesthetics, deep-space imagery, and premium typography to create a convincing, high-end product experience.
+N.A.S.A. Noir takes the world's most recognisable scientific institution and flips it completely - transforming six decades of space exploration into an exclusive line of cosmos-inspired fragrances. The brand identity draws on dark luxury aesthetics, deep-space imagery, and premium typography to create a convincing, high-end product experience.
 
 ## Live Demo
 
-> **[Live Site](https://nasa-noir-h5p06d7ar-satyam-samantas-projects.vercel.app)** — Deployed on Vercel
+> **[Live Site](https://nasa-noir-h5p06d7ar-satyam-samantas-projects.vercel.app)** - Deployed on Vercel
 
 ## Tech Stack
 
